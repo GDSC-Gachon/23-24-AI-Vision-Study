@@ -1,0 +1,1 @@
+ 23-24 GDSC Gachon AI Member **황지영**입니다! 잘부탁드려요~
