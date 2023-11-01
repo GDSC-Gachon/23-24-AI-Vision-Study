@@ -1,3 +1,4 @@
+
 # LeNet-5
 
 ### Lenet-5
@@ -82,5 +83,6 @@ c3는 c1와 다르게 s2의 여러 피처맵을 한번에 참조해서 c3의 한
  마지막의 output layer는 Euclidean Radial Basis Function(RBF)으로 구성되어 있고 최종적으로 이미지가 속한 클래스를 알려준다. 
  f6 layer의 weight들은 +1 아니면 -1인데 이는 sigmoid의 최대 곡률과 일치한다.
  10개 class로 구분하여 출력해서 각각 특정 이미지일 확률을 나타낸다.
+
 
 
