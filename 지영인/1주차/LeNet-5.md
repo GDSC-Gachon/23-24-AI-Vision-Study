@@ -1,10 +1,12 @@
+# LeNet-5
+
 ### LeNet-5 이전의 흐름
 
 ---
 
 - 퍼셉트론(Perceptron)의 등장 배경
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/ba7dd153-d63e-4dde-bf8e-b6f178b6c459/Untitled.png)
+    ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled.png)
     
     - 컴퓨터가 인간처럼 생각하여 문제를 해결하길 바라는 아이디어에서 출발
     - 뉴런의 구조를 보면, 여러 가지 신호를 입력으로 받아 이 신호의 세기가 역치를 넘어서면 다른 뉴런으로 신호가 전달되는 흐름을 가지고 있다.
@@ -12,7 +14,7 @@
 
 - 퍼셉트론(Perceptron)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/0919bf49-659c-4da2-8996-cad5cac8ed5c/Untitled.png)
+    ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%201.png)
     
     - 각 퍼셉트론은 가중치(w)를 가지고 있으며, 주어진 입력값(x)에 대한 곱을 모두 더한 후 바이어스(b) 값을 더한다.
     - 최종적으로 활성화 함수(activation function)에 이 값을 적용시켰을 때, 특정한 임계값을 만족한다면 그 값이 다음 퍼셉트론으로 전달된다.
@@ -22,7 +24,7 @@
     - 단일 퍼셉트론의 경우 결과값이 선형적이기 때문에, 모델의 예측은 “가장 훌륭한 예측선”을 그리는 것으로 설명할 수 있다.
     - AND, OR문제는 직선을 통한 분류가 가능했으나, 다음과 같은 XOR문제는 해결하지 못하여 난관에 봉착하였다.
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/ce154740-2337-48df-b513-1ab41547efea/Untitled.png)
+        ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%202.png)
         
 
 - 다층 퍼셉트론(Multilayer perceptrons)
@@ -34,7 +36,7 @@
     - 1986년 제프리 힌턴이 해당 방법론을 재발견했다고 알려짐
     - 인공신경망 분야에 다시 이목이 집중되기 시작함!
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/140d83a2-8bbc-4500-87c0-b2ef50652012/Untitled.png)
+        ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%203.png)
         
         - 순전파: 학습 데이터 셋에 대해서 예측
         - 역전파: 예측 결과와 정답 사이의 오차(error)를 역방향으로 전파하여 가중치를 수정
@@ -42,7 +44,7 @@
 
 - 합성곱 신경망(Convolutional Neural Networks)의 등장 배경
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/cdff87ab-687f-49ce-9247-d51b244e3cea/Untitled.png)
+    ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%204.png)
     
     - 고양이가 패턴을 인식할 때 시신경이 어떻게 반응하는지를 관찰
     - 고양이 시야의 한 쪽에 자극을 주었을 때 전체 뉴런이 아닌 특정 뉴런만이 활성화되었다.
@@ -75,7 +77,7 @@
 
 - 수용 영역 (receptive field)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/6d721f8a-a294-466f-8854-4e43511e4500/Untitled.png)
+    ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%205.png)
     
     - 앞선 고양이 실험에서와 같이 전체를 한 번에 보는 것이 아니라 작은 부분에 대한 feature를 결합하는 방식을 제안했다.
     - 학습 파라미터 수를 줄일 수 있다.
@@ -90,12 +92,12 @@
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/1fa1511b-2e2d-4992-8225-852973e87570/Untitled.png)
+![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%206.png)
 
 - Input
     - 32x32 손글씨 이미지
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/d48c3e91-7085-4975-84e0-85149cdf42e6/Untitled.png)
+        ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%207.png)
         
 - Layer C1
     - 입력: `32x32` 이미지
@@ -119,7 +121,7 @@
         - 필터 개수: `16개`
         - 이때 논문에서 설명한 특별한 방법을 사용한다. (더 다양한 특징을 추출하기 위함)
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/afa812ab-79d4-41b7-b9fc-3e5c46c413fe/Untitled.png)
+            ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%208.png)
             
             - 이때 연속된 3장, 4장 및 불연속된 4장의 필터 선택은 저자가 임의로 선택한 값
     - 출력: `10x10x16` feature map
@@ -148,5 +150,4 @@
     - 10개의 출력에서 각각이 특정 이미지일 확률을 나타낸다.
 - Loss function
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ab4044ad-b812-4adc-a02f-2d6e6317d1fd/ff36b579-7dcd-4067-8b5a-e95b4c80a141/Untitled.png)
-
+    ![Untitled](LeNet-5%205f840a62ea174dff8aca0cb36f6d9bd1/Untitled%209.png)
