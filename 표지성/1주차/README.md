@@ -93,5 +93,5 @@ LeNet-5은 1998년 Yann LeCun의 논문 'Gradient-Based Learning Applied to Docu
 [2] [https://mingyu6952.tistory.com/entry/LeNet-5-Pytorch%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0](https://mingyu6952.tistory.com/entry/LeNet-5-Pytorch%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)    
 [3] [https://deep-learning-study.tistory.com/368](https://deep-learning-study.tistory.com/368)    
 [4] [https://wikidocs.net/137250](https://wikidocs.net/137250)    
-[5] [https://github.com/juni5184/Paper_review/blob/main/(pytorch)lenet-5.ipynb](https://github.com/juni5184/Paper_review/blob/main/(pytorch)lenet-5.ipynb)
+[5] [https://github.com/juni5184/Paper_review/blob/main/(pytorch)lenet-5.ipynb](https://github.com/juni5184/Paper_review/blob/main/(pytorch)lenet-5.ipynb)    
 [6] [https://mingyu6952.tistory.com/entry/LeNet-5-Pytorch%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0](https://mingyu6952.tistory.com/entry/LeNet-5-Pytorch%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
