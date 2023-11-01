@@ -37,7 +37,7 @@ LeNet-5은 1998년 Yann LeCun의 논문 'Gradient-Based Learning Applied to Docu
 2. 그 결과 6장의 feature map(6x28x28)이 출력
 3. 파라미터의 수 : 5 x 5 x 6 + 6 = 156
 
-### Layer(Subsampling)
+### S2 Layer(Subsampling)
 
 1. 6장의 feature map(6x28x28)을 입력받아 2x2 average pooling 연산(stride=2, padding=0)을 진행
 2. 그 결과 6장의 feature map(6x14x14)이 출력
